@@ -4,5 +4,26 @@
   X-Content-Type-Options: nosniff
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-/assets/*
+# JS/CSS sem hash no nome — cache curto e revalidação obrigatória.
+# Sem isso, mudanças no form.js ou templum.css não chegam ao browser
+# que já visitou o site antes (cache "immutable").
+/assets/js/*
+  Cache-Control: public, max-age=60, must-revalidate
+/assets/css/*
+  Cache-Control: public, max-age=60, must-revalidate
+/assets/tracking/*
+  Cache-Control: public, max-age=60, must-revalidate
+
+# Imagens / fontes podem ficar muito tempo cacheadas (não mudam de versão sem rename).
+/assets/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.woff2
   Cache-Control: public, max-age=31536000, immutable
