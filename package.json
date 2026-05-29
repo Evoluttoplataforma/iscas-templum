@@ -1,0 +1,16 @@
+{
+  "name": "templum-iscas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Landing pages das iscas Templum migradas do RD Station, hospedadas no Cloudflare Pages.",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public",
+    "generate": "node scripts/generate.js",
+    "generate:force": "node scripts/generate.js --force"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

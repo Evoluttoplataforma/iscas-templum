@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects — slugs that go straight to the destination (no landing).
+# These covered RDStation URLs that were always redirects or institutional pages with no lead magnet.
+/iso-45001                   https://templum.com.br/consultoria/iso-45001   301
+/iso_9001                    https://templum.com.br/consultoria/iso-9001    301
+/pbqp-h                      https://templum.com.br/consultoria/pbqp-h      301
+/iso-9001-diagnostico        https://diagnostico-templum.lovable.app/       301
+/templum-franchising         https://templum.com.br                         301
+/complete-seu-cadastro-pbqp-h https://templum.com.br/consultoria/pbqp-h     301
