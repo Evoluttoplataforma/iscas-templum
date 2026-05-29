@@ -63,18 +63,20 @@
       successLink.href = data.iscaUrl;
       successBox.classList.add('--show');
 
-      // Tracking: dispara Lead em Meta Pixel / Google Ads / GA4 (e demais
-      // plataformas habilitadas em /assets/tracking/config.js).
+      // Tracking: dispara Lead nos pixels/conversões primários (kit) e nos
+      // extras (segundo Pixel Meta + segundo Conversion Google Ads).
+      var leadData = {
+        email: payload.email,
+        phone: payload.telefone,
+        name: payload.nome,
+        company: payload.empresa,
+        isca: payload.slug,
+      };
       if (window.trk && typeof window.trk.lead === 'function') {
-        try {
-          window.trk.lead({
-            email: payload.email,
-            phone: payload.telefone,
-            name: payload.nome,
-            company: payload.empresa,
-            isca: payload.slug,
-          });
-        } catch (e) { /* não bloqueia entrega da isca se tracking falhar */ }
+        try { window.trk.lead(leadData); } catch (e) { /* noop */ }
+      }
+      if (typeof window.trkExtrasLead === 'function') {
+        try { window.trkExtrasLead(leadData); } catch (e) { /* noop */ }
       }
 
       // auto-open after a short delay so the user sees the success state first

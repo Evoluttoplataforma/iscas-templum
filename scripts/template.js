@@ -195,6 +195,7 @@ export function render(page) {
 
   <script src="/assets/tracking/config.js"></script>
   <script src="/assets/tracking/loader.js"></script>
+  <script src="/assets/tracking/extras.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
