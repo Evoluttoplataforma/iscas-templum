@@ -140,7 +140,17 @@ export async function onRequestPost(context) {
     return json({ ok: false, error: "Página não encontrada." }, 404);
   }
 
-  const { MAILCHIMP_API_KEY, MAILCHIMP_AUDIENCE_ID, MAILCHIMP_SERVER_PREFIX } = env;
+  // Cloudflare Pages env var names sometimes come saved with leading whitespace
+  // depending on how they were pasted into the dashboard. Normalize key names
+  // and trim values so a stray space doesn't break the lookup.
+  const normEnv = {};
+  for (const k of Object.keys(env || {})) {
+    const v = env[k];
+    normEnv[String(k).trim()] = typeof v === "string" ? v.trim() : v;
+  }
+  const MAILCHIMP_API_KEY = normEnv.MAILCHIMP_API_KEY;
+  const MAILCHIMP_AUDIENCE_ID = normEnv.MAILCHIMP_AUDIENCE_ID;
+  const MAILCHIMP_SERVER_PREFIX = normEnv.MAILCHIMP_SERVER_PREFIX;
   if (!MAILCHIMP_API_KEY || !MAILCHIMP_AUDIENCE_ID || !MAILCHIMP_SERVER_PREFIX) {
     return json({ ok: false, error: "Integração de leads não configurada." }, 500);
   }
