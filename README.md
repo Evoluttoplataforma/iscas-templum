@@ -1,5 +1,7 @@
 # Templum · Iscas (Cloudflare Pages)
 
+> Status: integração Mailchimp ativa (audience `Templum Consultoria` · `403d002e4f` · us10).
+
 Migração das landing pages de iscas do RD Station para Cloudflare Pages, para que as URLs `consultoria.templum.com.br/<slug>` continuem respondendo (sem 404) depois do cancelamento do RD.
 
 Cada página captura nome / email / telefone / empresa, registra o contato no Mailchimp da Templum e libera o link da isca.
