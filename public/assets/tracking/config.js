@@ -9,7 +9,7 @@
  * token + n8n endpoint (mantenha o token FORA do repo — env var no Cloudflare).
  */
 window.TRACKING_CONFIG = {
-  client:    { name: 'templum-iscas', debug: true, shadow: false },
+  client:    { name: 'templum-iscas', debug: false, shadow: false },
   business:  {
     type: 'lead-gen-form',
     hasWhatsApp: false,
