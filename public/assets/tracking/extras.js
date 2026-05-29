@@ -37,7 +37,10 @@
   }, 100);
 
   // Helper exposto pra disparar Lead nos extras (chamado pelo form.js após sucesso).
-  window.trkExtrasLead = function (data) {
+  // `eventId` opcional: passe o mesmo retornado por trk.lead() pra que os dois
+  // pixels Meta usem o MESMO eventID — essencial pra dedup browser↔servidor no
+  // dia que CAPI for ativado no segundo Pixel também.
+  window.trkExtrasLead = function (data, eventId) {
     data = data || {};
     try {
       if (window.fbq && EX.meta && EX.meta.pixelId) {
@@ -45,13 +48,19 @@
         if (data.email) props.em = data.email;
         if (data.phone) props.ph = data.phone;
         if (data.name) props.fn = data.name;
-        window.fbq('trackSingle', String(EX.meta.pixelId), 'Lead', props);
+        var opts = eventId ? { eventID: eventId } : undefined;
+        if (opts) {
+          window.fbq('trackSingle', String(EX.meta.pixelId), 'Lead', props, opts);
+        } else {
+          window.fbq('trackSingle', String(EX.meta.pixelId), 'Lead', props);
+        }
       }
     } catch (e) { /* noop */ }
     try {
       if (window.gtag && EX.googleAds && EX.googleAds.conversionId && EX.googleAds.leadLabel) {
         window.gtag('event', 'conversion', {
           send_to: EX.googleAds.conversionId + '/' + EX.googleAds.leadLabel,
+          transaction_id: eventId || undefined,
         });
       }
     } catch (e) { /* noop */ }
