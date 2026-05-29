@@ -4,14 +4,14 @@
 
 export const pages = [
   // ============================================================
-  // EBOOKS — ISO 9001 / Processos
+  // EBOOKS, ISO 9001 / Processos
   // ============================================================
   {
     slug: "como-medir-processos-na-iso-9001",
     type: "ebook",
     title: "Como Medir Processos na ISO 9001 · Templum",
-    metaDescription: "Ebook gratuito Templum: como definir indicadores que importam na ISO 9001 — do mapeamento à coleta, sem virar relatório morto.",
-    headlineHtml: "Indicadores que <em>medem o que importa</em><br>na ISO 9001 — não <em>o que é fácil</em>.",
+    metaDescription: "Ebook gratuito Templum: como definir indicadores que importam na ISO 9001, do mapeamento à coleta, sem virar relatório morto.",
+    headlineHtml: "Indicadores que <em>medem o que importa</em><br>na ISO 9001, não <em>o que é fácil</em>.",
     subhead: "A norma exige medição. A consultoria mostra como sair dos indicadores genéricos e construir um conjunto enxuto, ligado à estratégia, que sustenta análise crítica de verdade.",
     benefits: [
       "Critérios para escolher o que vale a pena <strong>medir de fato</strong>.",
@@ -22,13 +22,13 @@ export const pages = [
     marqueeItems: ["ISO 9001:2015", { text: "Cláusula 9.1", orange: true }, "Indicadores", { text: "Meta SMART", orange: true }, "Análise crítica", { text: "Tomada de decisão", orange: true }],
     steps: [
       { num: "01", title: "O que medir", text: "Critérios para separar indicador relevante de número que só enche relatório." },
-      { num: "02", title: "Indicadores de processo", text: "Como derivar do mapeamento — entradas, saídas, eficácia e eficiência." },
+      { num: "02", title: "Indicadores de processo", text: "Como derivar do mapeamento, entradas, saídas, eficácia e eficiência." },
       { num: "03", title: "Meta e periodicidade", text: "Definir alvo realista, ritmo de coleta e quem é o dono do número." },
-      { num: "04", title: "Análise e ação", text: "Do dashboard para a decisão — quando vira ação corretiva e quando vira melhoria." },
+      { num: "04", title: "Análise e ação", text: "Do dashboard para a decisão, quando vira ação corretiva e quando vira melhoria." },
     ],
     ctaTitle: "Pare de medir <em>pra mostrar</em>.<br>Comece a medir <em>pra decidir</em>.",
-    ctaCopy: "O ebook foi escrito pra times que querem usar indicador como ferramenta de gestão — não como decoração de auditoria.",
-    ctaItems: ["Leitura rápida — 45 min", "Exemplos de indicadores por tipo de processo", "Sem custo · sem compromisso"],
+    ctaCopy: "O ebook foi escrito pra times que querem usar indicador como ferramenta de gestão, não como decoração de auditoria.",
+    ctaItems: ["Leitura rápida, 45 min", "Exemplos de indicadores por tipo de processo", "Sem custo · sem compromisso"],
     faqItems: [
       { q: "Serve para quem ainda não tem ISO 9001?", a: "Sim. Os critérios de seleção de indicador valem para qualquer empresa que quer medir o que importa, com ou sem certificação." },
     ],
@@ -36,36 +36,36 @@ export const pages = [
   {
     slug: "gestao-de-processos-do-contexto-ao-resultado-que-importa",
     type: "ebook",
-    title: "Gestão de Processos — do Contexto ao Resultado · Templum",
+    title: "Gestão de Processos, do Contexto ao Resultado · Templum",
     metaDescription: "Ebook Templum: como estruturar a gestão de processos partindo do contexto da organização e chegando em resultado mensurável.",
     headlineHtml: "Gestão de processos que <em>liga</em><br>contexto, execução e <em>resultado</em>.",
     subhead: "Mapeamento de processo sem contexto vira diagrama parado na parede. Este guia mostra como começar pelo lugar certo e chegar até o indicador que move o ponteiro.",
     benefits: [
       "Como ler o <strong>contexto da organização</strong> antes de mapear.",
       "Diferença entre processo <strong>desenhado</strong> e processo <strong>vivo</strong>.",
-      "<strong>Responsabilidade</strong> clara — dono, executor, cliente interno.",
+      "<strong>Responsabilidade</strong> clara, dono, executor, cliente interno.",
       "Indicador que <strong>fecha o ciclo</strong> e alimenta a melhoria.",
     ],
     marqueeItems: ["Gestão por processos", { text: "Contexto da organização", orange: true }, "Mapeamento", { text: "Dono do processo", orange: true }, "Indicadores", { text: "Melhoria contínua", orange: true }],
     steps: [
       { num: "01", title: "Contexto", text: "Partes interessadas, ambiente externo e o que isso muda no mapeamento." },
-      { num: "02", title: "Cadeia de valor", text: "Como identificar processos primários, de apoio e gerenciais — e diferenciar." },
+      { num: "02", title: "Cadeia de valor", text: "Como identificar processos primários, de apoio e gerenciais, e diferenciar." },
       { num: "03", title: "Desenho com propósito", text: "Mapear com intenção: entradas, saídas, controles e recursos." },
       { num: "04", title: "Responsabilidades", text: "Quem responde pelo quê. RACI aplicado sem virar burocracia." },
       { num: "05", title: "Medição", text: "Indicadores de processo que conversam com a estratégia da empresa." },
-      { num: "06", title: "Melhoria", text: "Ciclo PDCA real — do desvio à ação, da ação à evidência." },
+      { num: "06", title: "Melhoria", text: "Ciclo PDCA real, do desvio à ação, da ação à evidência." },
     ],
     ctaTitle: "Processo bem desenhado<br>é o que <em>destrava resultado</em>.",
-    ctaCopy: "O método neste ebook é o mesmo que aplicamos em consultoria com empresas de todos os portes — adaptado para você implementar internamente.",
+    ctaCopy: "O método neste ebook é o mesmo que aplicamos em consultoria com empresas de todos os portes, adaptado para você implementar internamente.",
     ctaItems: ["Aplicável a qualquer porte de empresa", "Conecta ISO 9001 a outras normas", "Sem custo · sem compromisso"],
     faqItems: [
-      { q: "Preciso ter ISO 9001 para aproveitar?", a: "Não. O método de gestão por processos é independente da certificação — mas empresas em busca da ISO ganham um atalho enorme." },
+      { q: "Preciso ter ISO 9001 para aproveitar?", a: "Não. O método de gestão por processos é independente da certificação, mas empresas em busca da ISO ganham um atalho enorme." },
     ],
   },
   {
     slug: "iso-27001-o-guia-completo-para-mapeamento-de-processos",
     type: "ebook",
-    title: "ISO 27001 — Guia de Mapeamento de Processos · Templum",
+    title: "ISO 27001, Guia de Mapeamento de Processos · Templum",
     metaDescription: "Como mapear processos para ISO 27001 (Segurança da Informação): escopo, ativos, controles e evidências, com método pronto para auditoria.",
     headlineHtml: "Mapeamento de processos<br>que <em>sustenta</em> a ISO 27001<br>na auditoria.",
     subhead: "Segurança da informação não é só firewall e política assinada. Sem mapeamento de processo, a auditoria encontra controle solto e ninguém sabe responder.",
@@ -77,43 +77,43 @@ export const pages = [
     ],
     marqueeItems: ["ISO 27001", { text: "Anexo A", orange: true }, "Segurança da informação", { text: "Ativos", orange: true }, "Controles", { text: "Auditoria", orange: true }],
     steps: [
-      { num: "01", title: "Escopo", text: "Como delimitar sem cortar o que sustenta — e sem inflar o que não precisa." },
+      { num: "01", title: "Escopo", text: "Como delimitar sem cortar o que sustenta, e sem inflar o que não precisa." },
       { num: "02", title: "Processos críticos", text: "Identificar onde a informação sensível trafega e quem responde por cada etapa." },
       { num: "03", title: "Ativos por processo", text: "Inventário ligado à execução, não a planilha desconectada." },
       { num: "04", title: "Controles aplicados", text: "Anexo A mapeado no ponto onde o risco acontece." },
-      { num: "05", title: "Evidências", text: "Registro que prova implementação — sem encenação na hora da auditoria." },
+      { num: "05", title: "Evidências", text: "Registro que prova implementação, sem encenação na hora da auditoria." },
       { num: "06", title: "Ciclo de melhoria", text: "Como integrar incidentes e análise crítica ao próximo ciclo." },
     ],
     ctaTitle: "Certificação que <em>aguenta</em><br>a próxima auditoria.",
     ctaCopy: "Empresas que tratam ISO 27001 como entrega de documento sofrem na auditoria. Mapeamento real é a diferença entre passar e refazer.",
     ctaItems: ["Conformidade que se sustenta no dia a dia", "Aplicável a SaaS, consultorias e indústrias", "Sem custo · sem compromisso"],
     faqItems: [
-      { q: "Serve para empresa pequena?", a: "Sim. O escopo pode ser enxuto sem perder integridade — o método é o mesmo, a escala muda." },
+      { q: "Serve para empresa pequena?", a: "Sim. O escopo pode ser enxuto sem perder integridade, o método é o mesmo, a escala muda." },
     ],
   },
   {
     slug: "e-book-lucre-com-a-iso",
     type: "ebook",
-    title: "Lucre com a ISO 9001 — Transição e Implantação · Templum",
-    metaDescription: "Ebook Templum: como transformar a ISO 9001 em alavanca de resultado — não em custo de certificação. Caminho prático de implantação e transição.",
-    headlineHtml: "ISO 9001 que <em>gera</em> lucro —<br>não que vira <em>custo</em>.",
+    title: "Lucre com a ISO 9001, Transição e Implantação · Templum",
+    metaDescription: "Ebook Templum: como transformar a ISO 9001 em alavanca de resultado, não em custo de certificação. Caminho prático de implantação e transição.",
+    headlineHtml: "ISO 9001 que <em>gera</em> lucro,<br>não que vira <em>custo</em>.",
     subhead: "Toda empresa certificada já ouviu que ISO é \"chato e caro\". Esse guia mostra como conduzir a implantação ou transição transformando exigência em diferencial de margem.",
     benefits: [
-      "<strong>Quick wins</strong> do primeiro mês — antes da auditoria.",
+      "<strong>Quick wins</strong> do primeiro mês, antes da auditoria.",
       "Como evitar os <strong>erros caros</strong> de quem implementa pra cumprir tabela.",
       "Ligação direta entre ISO e <strong>resultado financeiro</strong>.",
       "<strong>Transição da versão</strong> sem perder certificação.",
     ],
     marqueeItems: ["ISO 9001:2015", { text: "Implantação", orange: true }, "Transição", { text: "Resultado", orange: true }, "Auditoria", { text: "Margem", orange: true }],
     steps: [
-      { num: "01", title: "Diagnóstico inicial", text: "O que sua empresa já faz que conta como conformidade — e o que ainda falta." },
+      { num: "01", title: "Diagnóstico inicial", text: "O que sua empresa já faz que conta como conformidade, e o que ainda falta." },
       { num: "02", title: "Decisões estratégicas", text: "Escopo, política e objetivos: o que define o resto do projeto." },
       { num: "03", title: "Processos críticos", text: "Onde concentrar esforço para gerar resultado já no primeiro mês." },
       { num: "04", title: "Quick wins financeiros", text: "Ajustes pequenos que reduzem retrabalho e perdas." },
       { num: "05", title: "Auditoria com calma", text: "Como chegar pronto, sem maratona nas vésperas." },
-      { num: "06", title: "Pós-certificação", text: "Manter o sistema vivo — e crescendo em valor a cada ano." },
+      { num: "06", title: "Pós-certificação", text: "Manter o sistema vivo, e crescendo em valor a cada ano." },
     ],
-    ctaTitle: "ISO 9001 paga a conta —<br>quando é <em>bem feita</em>.",
+    ctaTitle: "ISO 9001 paga a conta,<br>quando é <em>bem feita</em>.",
     ctaCopy: "Esse guia foi escrito por consultores que viram empresas economizarem 6% de margem só com gestão decente. O método é prático, sem teoria solta.",
     ctaItems: ["Casos reais de redução de retrabalho", "Para empresas certificando ou em transição", "Sem custo · sem compromisso"],
     faqItems: [
@@ -122,14 +122,14 @@ export const pages = [
   },
 
   // ============================================================
-  // EBOOKS — ISO 45001 / SST
+  // EBOOKS, ISO 45001 / SST
   // ============================================================
   {
     slug: "integracao-nr-com-iso-45001-guia-completo-para-saude-e-seguranca",
     type: "ebook",
     title: "Integração NRs com ISO 45001 · Templum",
-    metaDescription: "Ebook gratuito: como integrar Normas Regulamentadoras (NRs) com ISO 45001 sem duplicar esforço — método prático para SST.",
-    headlineHtml: "NRs e ISO 45001 <em>no mesmo</em><br>sistema — sem duplicar<br><em>trabalho</em>.",
+    metaDescription: "Ebook gratuito: como integrar Normas Regulamentadoras (NRs) com ISO 45001 sem duplicar esforço, método prático para SST.",
+    headlineHtml: "NRs e ISO 45001 <em>no mesmo</em><br>sistema, sem duplicar<br><em>trabalho</em>.",
     subhead: "Empresas que tratam NR e ISO 45001 como universos separados pagam duas vezes. Esse guia mostra como integrar em um sistema único, mantendo conformidade legal e certificação.",
     benefits: [
       "<strong>Pontes</strong> entre NRs e cláusulas da ISO 45001.",
@@ -144,22 +144,22 @@ export const pages = [
       { num: "03", title: "Documentação única", text: "PGR, programas e procedimentos que servem para fiscalização e auditoria." },
       { num: "04", title: "Cultura e capacitação", text: "Treinamento que une obrigação legal e prática operacional." },
       { num: "05", title: "Monitoramento", text: "Indicadores que mostram conformidade e oportunidade de melhoria." },
-      { num: "06", title: "Auditoria pronta", text: "Como manter o sistema sempre auditável — sem maratona." },
+      { num: "06", title: "Auditoria pronta", text: "Como manter o sistema sempre auditável, sem maratona." },
     ],
     ctaTitle: "Integrar é <em>economizar</em><br>esforço, custo e <em>tempo</em>.",
     ctaCopy: "Empresas que mantêm sistemas separados gastam o dobro em consultoria, treinamento e revisão. O guia mostra como unificar sem perder rigor.",
     ctaItems: ["Reduz custo de manutenção do SGSST", "Aplicável a qualquer porte de empresa", "Sem custo · sem compromisso"],
     faqItems: [
-      { q: "Posso aplicar antes de buscar ISO 45001?", a: "Sim. A integração das NRs já melhora a gestão de SST — a certificação fica como próximo passo natural." },
+      { q: "Posso aplicar antes de buscar ISO 45001?", a: "Sim. A integração das NRs já melhora a gestão de SST, a certificação fica como próximo passo natural." },
     ],
   },
   {
     slug: "iso-45001-perigos-e-riscos-gestao-proativa-e-sustentavel",
     type: "ebook",
-    title: "ISO 45001 — Perigos e Riscos · Templum",
-    metaDescription: "Como identificar perigos e avaliar riscos ocupacionais alinhado à ISO 45001 — método prático, com matriz e plano de ação.",
-    headlineHtml: "Perigos e riscos sob a<br>ISO 45001 — gestão <em>proativa</em>,<br>não <em>reativa</em>.",
-    subhead: "Identificar perigo só depois do acidente é o jeito caro de descobrir. A norma exige antecipação — e este ebook mostra o método para implementar.",
+    title: "ISO 45001, Perigos e Riscos · Templum",
+    metaDescription: "Como identificar perigos e avaliar riscos ocupacionais alinhado à ISO 45001, método prático, com matriz e plano de ação.",
+    headlineHtml: "Perigos e riscos sob a<br>ISO 45001, gestão <em>proativa</em>,<br>não <em>reativa</em>.",
+    subhead: "Identificar perigo só depois do acidente é o jeito caro de descobrir. A norma exige antecipação, e este ebook mostra o método para implementar.",
     benefits: [
       "<strong>Identificação por processo</strong>, não por checklist genérico.",
       "Matriz <strong>probabilidade × severidade</strong> com critérios claros.",
@@ -168,38 +168,38 @@ export const pages = [
     ],
     marqueeItems: ["ISO 45001", { text: "Perigos", orange: true }, "Riscos ocupacionais", { text: "Hierarquia de controle", orange: true }, "Participação", { text: "GRO", orange: true }],
     steps: [
-      { num: "01", title: "Identificação", text: "Técnicas para mapear perigos onde o trabalho acontece — não na sala da gestão." },
+      { num: "01", title: "Identificação", text: "Técnicas para mapear perigos onde o trabalho acontece, não na sala da gestão." },
       { num: "02", title: "Avaliação de risco", text: "Critérios objetivos de probabilidade e severidade para comparar e priorizar." },
-      { num: "03", title: "Hierarquia de controle", text: "Eliminação, substituição, controle de engenharia, administrativo e EPI — nessa ordem." },
+      { num: "03", title: "Hierarquia de controle", text: "Eliminação, substituição, controle de engenharia, administrativo e EPI, nessa ordem." },
       { num: "04", title: "Participação", text: "Como envolver o trabalhador para que a análise pegue o que a gestão não vê." },
-      { num: "05", title: "Plano de ação", text: "Responsável, prazo, recurso e evidência — sem ação no papel." },
+      { num: "05", title: "Plano de ação", text: "Responsável, prazo, recurso e evidência, sem ação no papel." },
       { num: "06", title: "Monitoramento", text: "Reavaliação periódica e gatilhos que mantêm a análise viva." },
     ],
     ctaTitle: "Acidente é <em>caro</em>.<br>Prevenir é <em>barato</em>.",
-    ctaCopy: "Empresas que implementam o método deste ebook reduzem acidentes e auditorias virais — a gestão de risco passa a ser parte do dia a dia.",
+    ctaCopy: "Empresas que implementam o método deste ebook reduzem acidentes e auditorias virais, a gestão de risco passa a ser parte do dia a dia.",
     ctaItems: ["Aplicável independente de certificação", "Casos reais de redução de TF e TG", "Sem custo · sem compromisso"],
     faqItems: [
-      { q: "Substitui o PGR?", a: "Não. Mas complementa — o PGR cumpre a NR-01, e a metodologia da ISO 45001 amplia para gestão estratégica de riscos." },
+      { q: "Substitui o PGR?", a: "Não. Mas complementa, o PGR cumpre a NR-01, e a metodologia da ISO 45001 amplia para gestão estratégica de riscos." },
     ],
   },
   {
     slug: "e-book-a-nova-iso-45001",
     type: "ebook",
-    title: "A Nova ISO 45001 — Mudanças e Implementação · Templum",
+    title: "A Nova ISO 45001, Mudanças e Implementação · Templum",
     metaDescription: "Guia completo sobre a ISO 45001: estrutura, cláusulas, integração com NRs e caminho de implementação.",
-    headlineHtml: "ISO 45001 — o que <em>muda</em><br>de verdade no seu sistema<br>de <em>SST</em>.",
+    headlineHtml: "ISO 45001, o que <em>muda</em><br>de verdade no seu sistema<br>de <em>SST</em>.",
     subhead: "A norma substituiu a OHSAS 18001 com mudanças importantes: contexto, partes interessadas, liderança e participação. Esse guia destrincha cada uma.",
     benefits: [
-      "<strong>Diferenças</strong> em relação à OHSAS 18001 — cláusula a cláusula.",
+      "<strong>Diferenças</strong> em relação à OHSAS 18001, cláusula a cláusula.",
       "<strong>Liderança e participação</strong>: o que mudou e como aplicar.",
       "Integração com <strong>NRs brasileiras</strong> sem retrabalho.",
       "<strong>Caminho de implementação</strong> em fases realistas.",
     ],
     marqueeItems: ["ISO 45001", { text: "OHSAS 18001", orange: true }, "Liderança", { text: "Participação", orange: true }, "SST", { text: "Transição", orange: true }],
     steps: [
-      { num: "01", title: "Estrutura da norma", text: "Anexo SL — a lógica comum com ISO 9001 e 14001, que facilita integração." },
-      { num: "02", title: "Contexto e partes interessadas", text: "Cláusula 4 traduzida para SST — o que considerar e como documentar." },
-      { num: "03", title: "Liderança", text: "O papel da alta direção que a norma reforça — e como evidenciar." },
+      { num: "01", title: "Estrutura da norma", text: "Anexo SL, a lógica comum com ISO 9001 e 14001, que facilita integração." },
+      { num: "02", title: "Contexto e partes interessadas", text: "Cláusula 4 traduzida para SST, o que considerar e como documentar." },
+      { num: "03", title: "Liderança", text: "O papel da alta direção que a norma reforça, e como evidenciar." },
       { num: "04", title: "Participação", text: "Como envolver trabalhadores sem virar formalidade burocrática." },
       { num: "05", title: "Operação", text: "Cláusula 8 na prática: hierarquia de controle, terceiros e mudanças." },
       { num: "06", title: "Avaliação e melhoria", text: "Como fechar o ciclo com auditoria, análise crítica e ação corretiva." },
@@ -211,26 +211,26 @@ export const pages = [
   },
 
   // ============================================================
-  // EBOOKS — ISO 14001 / Ambiental
+  // EBOOKS, ISO 14001 / Ambiental
   // ============================================================
   {
     slug: "analise-critica-pela-direcao-iso-14001-guia-completo-e-pratico",
     type: "ebook",
     title: "Análise Crítica pela Direção ISO 14001 · Templum",
-    metaDescription: "Guia prático de Análise Crítica pela Direção para ISO 14001 — pauta, entradas, saídas e exemplos prontos para usar.",
-    headlineHtml: "Análise crítica que<br><em>dá decisão</em> — não que<br>cumpre <em>cláusula</em>.",
+    metaDescription: "Guia prático de Análise Crítica pela Direção para ISO 14001, pauta, entradas, saídas e exemplos prontos para usar.",
+    headlineHtml: "Análise crítica que<br><em>dá decisão</em>, não que<br>cumpre <em>cláusula</em>.",
     subhead: "A reunião de análise crítica é uma das cláusulas que mais leva não-conformidade na auditoria. Esse guia mostra como transformar exigência em momento de gestão real.",
     benefits: [
       "<strong>Pauta padrão</strong> alinhada com a cláusula 9.3.",
       "<strong>Entradas obrigatórias</strong> e como prepará-las antecipadamente.",
-      "<strong>Decisões esperadas</strong> — e como documentar sem inventar.",
+      "<strong>Decisões esperadas</strong>, e como documentar sem inventar.",
       "Modelo de <strong>ata</strong> que sustenta auditoria.",
     ],
     marqueeItems: ["ISO 14001", { text: "Cláusula 9.3", orange: true }, "Alta direção", { text: "SGA", orange: true }, "Auditoria", { text: "Decisão", orange: true }],
     steps: [
       { num: "01", title: "Pauta", text: "Estrutura mínima da reunião que cobre todas as entradas exigidas." },
-      { num: "02", title: "Entradas", text: "Indicadores ambientais, ações, NCs, partes interessadas — como preparar." },
-      { num: "03", title: "Condução", text: "Como conduzir para gerar decisão — não só apresentação." },
+      { num: "02", title: "Entradas", text: "Indicadores ambientais, ações, NCs, partes interessadas, como preparar." },
+      { num: "03", title: "Condução", text: "Como conduzir para gerar decisão, não só apresentação." },
       { num: "04", title: "Saídas", text: "Quais decisões a norma espera e como registrar de forma defensável." },
       { num: "05", title: "Ata", text: "Modelo aplicável que satisfaz auditor e equipe interna." },
       { num: "06", title: "Acompanhamento", text: "Como manter as ações da análise crítica vivas até a próxima reunião." },
@@ -244,14 +244,14 @@ export const pages = [
   },
 
   // ============================================================
-  // EBOOKS — PBQP-H / Construção
+  // EBOOKS, PBQP-H / Construção
   // ============================================================
   {
     slug: "e-book-guia-pbqp-h",
     type: "ebook",
     title: "Guia Completo PBQP-H · Templum",
-    metaDescription: "Guia gratuito sobre o PBQP-H — níveis, exigências, certificação e como acessar o financiamento da Caixa.",
-    headlineHtml: "PBQP-H sem mistério —<br>do <em>nível</em> à certificação,<br>passo a passo.",
+    metaDescription: "Guia gratuito sobre o PBQP-H, níveis, exigências, certificação e como acessar o financiamento da Caixa.",
+    headlineHtml: "PBQP-H sem mistério,<br>do <em>nível</em> à certificação,<br>passo a passo.",
     subhead: "Construtoras que querem financiamento da Caixa precisam de PBQP-H. Esse guia explica os níveis, os requisitos e o caminho mais curto pra certificação.",
     benefits: [
       "Diferença entre <strong>níveis A, B, C, D</strong> e qual buscar.",
@@ -261,11 +261,11 @@ export const pages = [
     ],
     marqueeItems: ["PBQP-H", { text: "Nível A", orange: true }, "Caixa", { text: "MCMV", orange: true }, "Construção", { text: "Certificação", orange: true }],
     steps: [
-      { num: "01", title: "O que é PBQP-H", text: "Programa do governo federal — origem, lógica e por que existe." },
-      { num: "02", title: "Níveis e exigências", text: "A, B, C, D — diferença de cada um e qual escolher para sua construtora." },
+      { num: "01", title: "O que é PBQP-H", text: "Programa do governo federal, origem, lógica e por que existe." },
+      { num: "02", title: "Níveis e exigências", text: "A, B, C, D, diferença de cada um e qual escolher para sua construtora." },
       { num: "03", title: "Pré-requisitos", text: "O que precisa estar pronto antes de abrir o processo de certificação." },
       { num: "04", title: "Documentação", text: "Lista enxuta do que precisa ser elaborado, revisado e aprovado." },
-      { num: "05", title: "Auditoria", text: "Como funcionam as etapas — fase 1, fase 2 e manutenção." },
+      { num: "05", title: "Auditoria", text: "Como funcionam as etapas, fase 1, fase 2 e manutenção." },
       { num: "06", title: "Acesso ao crédito", text: "Como o PBQP-H destrava aprovação da Caixa em programas como MCMV." },
     ],
     ctaTitle: "PBQP-H é o <em>passaporte</em><br>pro crédito da Caixa.",
@@ -279,8 +279,8 @@ export const pages = [
     slug: "e-book-pbqp-h-e-a-norma-de-desempenho",
     type: "ebook",
     title: "PBQP-H e Norma de Desempenho · Templum",
-    metaDescription: "Como atender PBQP-H integrado à NBR 15575 (Norma de Desempenho) — diferenças, sobreposições e plano único.",
-    headlineHtml: "PBQP-H e Norma de<br>Desempenho — <em>juntas</em><br>no mesmo projeto.",
+    metaDescription: "Como atender PBQP-H integrado à NBR 15575 (Norma de Desempenho), diferenças, sobreposições e plano único.",
+    headlineHtml: "PBQP-H e Norma de<br>Desempenho, <em>juntas</em><br>no mesmo projeto.",
     subhead: "PBQP-H e NBR 15575 cobram coisas parecidas mas com lógicas diferentes. Esse guia ensina a estruturar projeto e obra atendendo as duas em paralelo, sem trabalhar duas vezes.",
     benefits: [
       "<strong>Pontes</strong> entre PBQP-H e NBR 15575.",
@@ -290,7 +290,7 @@ export const pages = [
     ],
     marqueeItems: ["PBQP-H", { text: "NBR 15575", orange: true }, "Norma de Desempenho", { text: "Vida útil", orange: true }, "Caixa", { text: "Projeto", orange: true }],
     steps: [
-      { num: "01", title: "Visão geral", text: "O que cada exigência pede — e onde elas se sobrepõem." },
+      { num: "01", title: "Visão geral", text: "O que cada exigência pede, e onde elas se sobrepõem." },
       { num: "02", title: "Critérios de desempenho", text: "Estrutural, vedação, pisos, fachadas, instalações e durabilidade." },
       { num: "03", title: "Projeto integrado", text: "Como o projeto absorve as duas exigências sem virar dois projetos." },
       { num: "04", title: "Obra e controle", text: "O que mudar no canteiro para que desempenho não vire surpresa pós-entrega." },
@@ -307,21 +307,21 @@ export const pages = [
     type: "ebook",
     title: "Mitos e Verdades do PBQP-H · Templum",
     metaDescription: "Os mitos mais comuns sobre PBQP-H desmontados, com as verdades práticas para quem vai certificar.",
-    headlineHtml: "Mitos e verdades do<br>PBQP-H — o que <em>você</em><br>ainda não <em>sabia</em>.",
-    subhead: "Toda construtora ouve histórias sobre PBQP-H — algumas verdadeiras, muitas exageradas. Este ebook separa o que importa do que é boato de corredor.",
+    headlineHtml: "Mitos e verdades do<br>PBQP-H, o que <em>você</em><br>ainda não <em>sabia</em>.",
+    subhead: "Toda construtora ouve histórias sobre PBQP-H, algumas verdadeiras, muitas exageradas. Este ebook separa o que importa do que é boato de corredor.",
     benefits: [
-      "Por que <strong>não é só burocracia</strong> — apesar de parecer.",
+      "Por que <strong>não é só burocracia</strong>, apesar de parecer.",
       "Quanto <strong>realmente custa</strong> certificar.",
       "<strong>Tempo</strong> realista até a certificação.",
       "Como <strong>não perder</strong> a certificação depois de obtida.",
     ],
     marqueeItems: ["PBQP-H", { text: "Mitos", orange: true }, "Custo", { text: "Tempo", orange: true }, "Caixa", { text: "Manutenção", orange: true }],
     steps: [
-      { num: "01", title: "Mito do custo", text: "Quanto custa de verdade — e quanto a empresa economiza depois." },
-      { num: "02", title: "Mito do tempo", text: "Quanto tempo é realista — e onde construtoras se atrasam." },
+      { num: "01", title: "Mito do custo", text: "Quanto custa de verdade, e quanto a empresa economiza depois." },
+      { num: "02", title: "Mito do tempo", text: "Quanto tempo é realista, e onde construtoras se atrasam." },
       { num: "03", title: "Mito da papelada", text: "Quanto é papelada de fato e quanto é só má implementação." },
       { num: "04", title: "Mito do nível A", text: "Por que muita construtora não precisa começar pelo A." },
-      { num: "05", title: "Mito da manutenção", text: "O que dá trabalho pra manter — e o que se automatiza." },
+      { num: "05", title: "Mito da manutenção", text: "O que dá trabalho pra manter, e o que se automatiza." },
       { num: "06", title: "Verdade central", text: "PBQP-H é o passaporte da Caixa. Sem ele, programa nenhum aprova." },
     ],
     ctaTitle: "Decisão informada<br><em>economiza</em> tempo e dinheiro.",
@@ -333,8 +333,8 @@ export const pages = [
     slug: "gestao-de-indicadores-em-obras-eficiencia-e-resultados-reais",
     type: "ebook",
     title: "Gestão de Indicadores em Obras · Templum",
-    metaDescription: "Indicadores que importam em obras — produtividade, perda, prazo, qualidade e segurança — com modelo de coleta e análise.",
-    headlineHtml: "Indicadores de obra que<br><em>cabem</em> na rotina —<br>e <em>movem</em> o resultado.",
+    metaDescription: "Indicadores que importam em obras, produtividade, perda, prazo, qualidade e segurança, com modelo de coleta e análise.",
+    headlineHtml: "Indicadores de obra que<br><em>cabem</em> na rotina,<br>e <em>movem</em> o resultado.",
     subhead: "Obra que não mede, não controla. Esse guia mostra os indicadores que de fato importam, como coletar com pouco esforço e como traduzir em ação no canteiro.",
     benefits: [
       "Indicadores de <strong>produtividade, perda e prazo</strong>.",
@@ -345,7 +345,7 @@ export const pages = [
     marqueeItems: ["Indicadores", { text: "Obra", orange: true }, "Produtividade", { text: "Perda", orange: true }, "Prazo", { text: "PBQP-H", orange: true }],
     steps: [
       { num: "01", title: "O que medir", text: "Indicadores que de fato impactam custo, prazo e qualidade na obra." },
-      { num: "02", title: "Coleta enxuta", text: "Como capturar dado sem virar enchedor de planilha — quem coleta e quando." },
+      { num: "02", title: "Coleta enxuta", text: "Como capturar dado sem virar enchedor de planilha, quem coleta e quando." },
       { num: "03", title: "Análise no ritmo certo", text: "Frequência de leitura que permite ação antes do problema crescer." },
       { num: "04", title: "Decisão no canteiro", text: "Como traduzir indicador em ação concreta do engenheiro/encarregado." },
       { num: "05", title: "Indicadores e PBQP-H", text: "Quais indicadores satisfazem requisito da norma sem trabalho extra." },
@@ -358,29 +358,29 @@ export const pages = [
   },
 
   // ============================================================
-  // EBOOKS — Alimentos
+  // EBOOKS, Alimentos
   // ============================================================
   {
     slug: "e-book-regularizacao-para-ramo-alimenticio",
     type: "ebook",
     title: "Regularização para Ramo Alimentício · Templum",
-    metaDescription: "Como regularizar uma empresa do setor alimentício — alvarás, ANVISA, MAPA e boas práticas que evitam interdição.",
-    headlineHtml: "Regularização no setor<br>alimentício — sem <em>surpresa</em><br>na próxima <em>fiscalização</em>.",
+    metaDescription: "Como regularizar uma empresa do setor alimentício, alvarás, ANVISA, MAPA e boas práticas que evitam interdição.",
+    headlineHtml: "Regularização no setor<br>alimentício, sem <em>surpresa</em><br>na próxima <em>fiscalização</em>.",
     subhead: "Restaurantes, fábricas e distribuidores convivem com risco regulatório alto. Esse guia mostra o checklist de regularização e boas práticas que mantém a operação rodando.",
     benefits: [
       "<strong>Mapa completo</strong> de exigências por tipo de operação.",
-      "<strong>ANVISA, MAPA, Vigilância Sanitária</strong> — quem fiscaliza o quê.",
+      "<strong>ANVISA, MAPA, Vigilância Sanitária</strong>, quem fiscaliza o quê.",
       "<strong>Boas práticas</strong> de fabricação e manipulação aplicadas.",
       "Como reagir à <strong>autuação</strong> sem comprometer a operação.",
     ],
     marqueeItems: ["ANVISA", { text: "MAPA", orange: true }, "Vigilância Sanitária", { text: "BPF", orange: true }, "Manipulação", { text: "Rotulagem", orange: true }],
     steps: [
-      { num: "01", title: "Classificação", text: "Como identificar exatamente o que sua operação é — e quem fiscaliza." },
+      { num: "01", title: "Classificação", text: "Como identificar exatamente o que sua operação é, e quem fiscaliza." },
       { num: "02", title: "Alvarás e licenças", text: "Lista completa do que precisa ser emitido e renovado." },
       { num: "03", title: "Boas Práticas (BPF)", text: "Procedimentos operacionais padrão e POPs essenciais." },
-      { num: "04", title: "Manipulação segura", text: "Higiene, temperatura, controle de pragas — o que fiscalização olha." },
+      { num: "04", title: "Manipulação segura", text: "Higiene, temperatura, controle de pragas, o que fiscalização olha." },
       { num: "05", title: "Rotulagem", text: "Regras de embalagem, ingredientes, alergênicos e nutricional." },
-      { num: "06", title: "Em caso de autuação", text: "Como responder, recorrer e ajustar — sem fechar as portas." },
+      { num: "06", title: "Em caso de autuação", text: "Como responder, recorrer e ajustar, sem fechar as portas." },
     ],
     ctaTitle: "Fiscalização <em>chega</em>.<br>A pergunta é se você<br>está <em>pronto</em>.",
     ctaCopy: "Empresas do setor alimentício que tratam regularização como check-list anual sofrem com autuações repetidas. O guia muda esse jogo.",
@@ -390,8 +390,8 @@ export const pages = [
   {
     slug: "e-book-seguranca-de-alimentos",
     type: "ebook",
-    title: "Segurança de Alimentos — Guia Prático · Templum",
-    metaDescription: "Como implementar segurança de alimentos com base em FSSC 22000, ISO 22000 e Codex Alimentarius — método prático.",
+    title: "Segurança de Alimentos, Guia Prático · Templum",
+    metaDescription: "Como implementar segurança de alimentos com base em FSSC 22000, ISO 22000 e Codex Alimentarius, método prático.",
     headlineHtml: "Segurança de alimentos<br>que <em>protege</em> a marca<br>e o <em>consumidor</em>.",
     subhead: "Recall e contaminação destroem reputação em dias. Esse guia mostra como estruturar segurança de alimentos seguindo as principais normas internacionais.",
     benefits: [
@@ -418,14 +418,14 @@ export const pages = [
     slug: "e-book-estudo-de-caso-fssc-22000",
     type: "ebook",
     title: "Estudo de Caso FSSC 22000 · Templum",
-    metaDescription: "Estudo de caso real de implementação FSSC 22000 — etapas, desafios e resultados de uma indústria de alimentos.",
+    metaDescription: "Estudo de caso real de implementação FSSC 22000, etapas, desafios e resultados de uma indústria de alimentos.",
     headlineHtml: "FSSC 22000 na <em>prática</em>:<br>caso real de <em>implementação</em>.",
-    subhead: "Em vez de teoria, este material mostra como uma indústria de alimentos saiu do zero à certificação FSSC 22000 — etapas, custos, prazos e resultados.",
+    subhead: "Em vez de teoria, este material mostra como uma indústria de alimentos saiu do zero à certificação FSSC 22000, etapas, custos, prazos e resultados.",
     benefits: [
       "<strong>Diagnóstico inicial</strong> e principais gaps encontrados.",
       "<strong>Cronograma real</strong> de implementação por fases.",
       "<strong>Custos diretos e indiretos</strong> envolvidos.",
-      "<strong>Resultados</strong> antes/depois — em números.",
+      "<strong>Resultados</strong> antes/depois, em números.",
     ],
     marqueeItems: ["FSSC 22000", { text: "Caso real", orange: true }, "Implementação", { text: "Indústria", orange: true }, "Certificação", { text: "Resultados", orange: true }],
     steps: [
@@ -434,37 +434,37 @@ export const pages = [
       { num: "03", title: "Cronograma", text: "Como o projeto foi dividido em fases ao longo de 9 meses." },
       { num: "04", title: "Investimento", text: "Custos com consultoria, infraestrutura, capacitação e auditoria." },
       { num: "05", title: "Auditoria", text: "Como foi a auditoria de certificação e os ajustes finais." },
-      { num: "06", title: "Pós-certificação", text: "Resultados após 12 meses certificada — mercado, margem, clientes." },
+      { num: "06", title: "Pós-certificação", text: "Resultados após 12 meses certificada, mercado, margem, clientes." },
     ],
     ctaTitle: "Caso real é o melhor<br>parâmetro pra <em>decisão</em>.",
-    ctaCopy: "Vê como a empresa do estudo decidiu, executou e colheu o resultado. Aprenda com escolhas que funcionaram — e com as que custaram caro.",
+    ctaCopy: "Vê como a empresa do estudo decidiu, executou e colheu o resultado. Aprenda com escolhas que funcionaram, e com as que custaram caro.",
     ctaItems: ["Material baseado em projeto real", "Foco em indústrias de alimentos", "Sem custo · sem compromisso"],
     faqItems: [],
   },
 
   // ============================================================
-  // EBOOKS — Gestão e outros
+  // EBOOKS, Gestão e outros
   // ============================================================
   {
     slug: "e-book-okr",
     type: "ebook",
     title: "OKR na Prática · Templum",
-    metaDescription: "Como implementar OKR (Objectives and Key Results) na sua empresa — método, exemplos e armadilhas para evitar.",
-    headlineHtml: "OKR que <em>funciona</em> —<br>não OKR que vira<br>mais um <em>quadro</em>.",
+    metaDescription: "Como implementar OKR (Objectives and Key Results) na sua empresa, método, exemplos e armadilhas para evitar.",
+    headlineHtml: "OKR que <em>funciona</em>,<br>não OKR que vira<br>mais um <em>quadro</em>.",
     subhead: "OKR mal implementado vira metas decoradas. Esse guia mostra como conduzir o ciclo de objetivos e resultados-chave gerando foco real no time.",
     benefits: [
-      "Diferença entre <strong>OKR e KPI</strong> — e quando usar cada um.",
+      "Diferença entre <strong>OKR e KPI</strong>, e quando usar cada um.",
       "Como escrever <strong>objetivos inspiradores</strong> sem virar slogan.",
-      "<strong>Key Results</strong> mensuráveis — não atividades disfarçadas.",
+      "<strong>Key Results</strong> mensuráveis, não atividades disfarçadas.",
       "<strong>Ciclo trimestral</strong> com check-ins eficientes.",
     ],
     marqueeItems: ["OKR", { text: "Objetivos", orange: true }, "Key Results", { text: "KPI", orange: true }, "Ciclo trimestral", { text: "Alinhamento", orange: true }],
     steps: [
-      { num: "01", title: "Conceito", text: "O que OKR é — e o que não é. Onde Google, Intel e outras erraram no começo." },
+      { num: "01", title: "Conceito", text: "O que OKR é, e o que não é. Onde Google, Intel e outras erraram no começo." },
       { num: "02", title: "Como escrever", text: "Estrutura de objetivos e key results que cabem na realidade da sua empresa." },
       { num: "03", title: "Cascateamento", text: "Como conectar OKRs da diretoria com OKRs de área e time." },
-      { num: "04", title: "Check-ins", text: "Ritmo semanal e quinzenal que mantém OKR vivo — sem virar reunião extra." },
-      { num: "05", title: "Avaliação", text: "Como pontuar key results no fim do trimestre — e o que fazer com 0.4." },
+      { num: "04", title: "Check-ins", text: "Ritmo semanal e quinzenal que mantém OKR vivo, sem virar reunião extra." },
+      { num: "05", title: "Avaliação", text: "Como pontuar key results no fim do trimestre, e o que fazer com 0.4." },
       { num: "06", title: "Armadilhas", text: "Os erros típicos: OKR atividade, OKR muito fácil, KR sem dono." },
     ],
     ctaTitle: "OKR é <em>foco</em>.<br>Sem foco, ninguém entrega.",
@@ -475,10 +475,10 @@ export const pages = [
   {
     slug: "e-book-gestao-de-relacionamentos",
     type: "ebook",
-    title: "Gestão de Relacionamentos — Setor Contábil · Templum",
+    title: "Gestão de Relacionamentos, Setor Contábil · Templum",
     metaDescription: "Como estruturar gestão de relacionamento com cliente em escritórios contábeis para reduzir churn e aumentar LTV.",
-    headlineHtml: "Cliente contábil que <em>fica</em> —<br>e que <em>indica</em>.",
-    subhead: "Em escritório contábil, ganhar cliente é caro. Perder é barato — e silencioso. Esse guia mostra como estruturar relacionamento que reduz churn e gera indicação.",
+    headlineHtml: "Cliente contábil que <em>fica</em>,<br>e que <em>indica</em>.",
+    subhead: "Em escritório contábil, ganhar cliente é caro. Perder é barato, e silencioso. Esse guia mostra como estruturar relacionamento que reduz churn e gera indicação.",
     benefits: [
       "Onde nasce o <strong>churn</strong> e como antecipar.",
       "<strong>Cadência</strong> de contato que cabe na rotina do escritório.",
@@ -487,12 +487,12 @@ export const pages = [
     ],
     marqueeItems: ["Relacionamento", { text: "Churn", orange: true }, "NPS", { text: "Indicação", orange: true }, "Contábil", { text: "LTV", orange: true }],
     steps: [
-      { num: "01", title: "Diagnóstico", text: "Saúde do relacionamento — sinais de cliente em risco." },
+      { num: "01", title: "Diagnóstico", text: "Saúde do relacionamento, sinais de cliente em risco." },
       { num: "02", title: "Cadência", text: "Como manter contato sem virar peso na rotina do contador." },
       { num: "03", title: "Comunicação proativa", text: "Antecipar dúvida vale mais que responder rápido." },
-      { num: "04", title: "Pesquisa NPS", text: "Como aplicar NPS sem irritar — e o que fazer com a nota." },
-      { num: "05", title: "Pedido de indicação", text: "Quando, como e para quem pedir — sem desgastar o relacionamento." },
-      { num: "06", title: "Gestão de churn", text: "Quando o cliente sinaliza saída — o que fazer e o que não fazer." },
+      { num: "04", title: "Pesquisa NPS", text: "Como aplicar NPS sem irritar, e o que fazer com a nota." },
+      { num: "05", title: "Pedido de indicação", text: "Quando, como e para quem pedir, sem desgastar o relacionamento." },
+      { num: "06", title: "Gestão de churn", text: "Quando o cliente sinaliza saída, o que fazer e o que não fazer." },
     ],
     ctaTitle: "Cliente fiel é <em>margem</em>.<br>Indicação é <em>crescimento</em>.",
     ctaCopy: "Escritórios que estruturam relacionamento reduzem churn em 30-40%. Esse guia mostra o método.",
@@ -503,22 +503,22 @@ export const pages = [
     slug: "ebook-empresarios",
     type: "ebook",
     title: "Ebook Templum para Empresários · Templum",
-    metaDescription: "Material Templum para empresários: gestão, certificação e crescimento estruturado — visão estratégica para tomar decisão.",
+    metaDescription: "Material Templum para empresários: gestão, certificação e crescimento estruturado, visão estratégica para tomar decisão.",
     headlineHtml: "Decisão de <em>empresário</em><br>sobre certificação e<br><em>gestão estruturada</em>.",
     subhead: "Empresário que ouve \"vamos implementar ISO\" precisa de visão estratégica antes de mergulhar no operacional. Esse material foi feito pra essa decisão.",
     benefits: [
-      "Quando faz sentido <strong>certificar</strong> — e quando não.",
+      "Quando faz sentido <strong>certificar</strong>, e quando não.",
       "<strong>Retorno financeiro</strong> esperado de cada norma.",
       "Como evitar virar refém da <strong>consultoria</strong>.",
       "<strong>Plano executivo</strong> que entrega resultado em 12 meses.",
     ],
     marqueeItems: ["Empresário", { text: "Estratégia", orange: true }, "Certificação", { text: "ROI", orange: true }, "Crescimento", { text: "Decisão", orange: true }],
     steps: [
-      { num: "01", title: "Visão de longo prazo", text: "Onde sua empresa quer estar em 5 anos — e o que precisa para chegar." },
+      { num: "01", title: "Visão de longo prazo", text: "Onde sua empresa quer estar em 5 anos, e o que precisa para chegar." },
       { num: "02", title: "Por que certificar", text: "Razões de mercado, financeiras e operacionais por trás de cada norma." },
-      { num: "03", title: "Investimento total", text: "Custos diretos e indiretos honestos — sem promessa vazia." },
+      { num: "03", title: "Investimento total", text: "Custos diretos e indiretos honestos, sem promessa vazia." },
       { num: "04", title: "Retorno esperado", text: "Métricas que mostram retorno da certificação em 12-24 meses." },
-      { num: "05", title: "Sobre consultoria", text: "Como contratar bem — e como evitar dependência." },
+      { num: "05", title: "Sobre consultoria", text: "Como contratar bem, e como evitar dependência." },
       { num: "06", title: "Plano de 12 meses", text: "Roteiro executivo do que esperar mês a mês." },
     ],
     ctaTitle: "Decisão de empresário<br>precisa de <em>visão clara</em>.",
@@ -530,8 +530,8 @@ export const pages = [
     slug: "inteligencia-artificial-como-transformar-sua-empresa-com-ia-na-pratica",
     type: "ebook",
     title: "Inteligência Artificial na Prática · Templum",
-    metaDescription: "Como aplicar IA na gestão da sua empresa — casos práticos, ferramentas e roteiro para implementar sem desperdício.",
-    headlineHtml: "IA na empresa — <em>casos</em><br>práticos, não <em>promessas</em>.",
+    metaDescription: "Como aplicar IA na gestão da sua empresa, casos práticos, ferramentas e roteiro para implementar sem desperdício.",
+    headlineHtml: "IA na empresa, <em>casos</em><br>práticos, não <em>promessas</em>.",
     subhead: "Empresa que adota IA seguindo hype gasta dinheiro e fica frustrada. Esse guia mostra onde IA gera retorno real em gestão, processo e atendimento.",
     benefits: [
       "Onde IA <strong>já entrega resultado</strong> em PMEs.",
@@ -541,7 +541,7 @@ export const pages = [
     ],
     marqueeItems: ["IA", { text: "Automação", orange: true }, "Produtividade", { text: "Atendimento", orange: true }, "Gestão", { text: "ROI", orange: true }],
     steps: [
-      { num: "01", title: "O que IA é hoje", text: "Diferença entre IA, automação e RPA — sem hype." },
+      { num: "01", title: "O que IA é hoje", text: "Diferença entre IA, automação e RPA, sem hype." },
       { num: "02", title: "Onde aplicar primeiro", text: "Casos onde retorno aparece em 90 dias." },
       { num: "03", title: "Atendimento", text: "Como IA melhora suporte sem perder qualidade humana." },
       { num: "04", title: "Gestão", text: "Análise de dados, indicadores e antecipação de problemas." },
@@ -549,23 +549,23 @@ export const pages = [
       { num: "06", title: "Riscos", text: "Privacidade, dependência de fornecedor e governança." },
     ],
     ctaTitle: "IA não substitui <em>gestão</em>.<br>Boa gestão <em>amplificada</em>.",
-    ctaCopy: "Esse guia foi escrito pra empresário e gestor — não pra cientista de dados. Linguagem clara, casos reais.",
+    ctaCopy: "Esse guia foi escrito pra empresário e gestor, não pra cientista de dados. Linguagem clara, casos reais.",
     ctaItems: ["Casos por porte e setor", "Roteiro de implementação", "Sem custo · sem compromisso"],
     faqItems: [],
   },
 
   // ============================================================
-  // PLANILHAS — SGI / Processos
+  // PLANILHAS, SGI / Processos
   // ============================================================
   {
     slug: "planilha-riscos-e-oportunidades",
     type: "planilha",
     title: "Planilha de Riscos e Oportunidades · Templum",
-    metaDescription: "Planilha gratuita para gestão de riscos e oportunidades alinhada à ISO 9001:2015 — identificação, análise, tratamento e monitoramento.",
-    headlineHtml: "Gestão de riscos —<br>de planilha <em>solta</em><br>a processo <em>vivo</em>.",
+    metaDescription: "Planilha gratuita para gestão de riscos e oportunidades alinhada à ISO 9001:2015, identificação, análise, tratamento e monitoramento.",
+    headlineHtml: "Gestão de riscos,<br>de planilha <em>solta</em><br>a processo <em>vivo</em>.",
     subhead: "Planilha estruturada para identificar riscos por processo, avaliar com critérios claros e gerar plano de ação com responsável e prazo.",
     benefits: [
-      "<strong>Identificação por processo</strong> — não por chute geral.",
+      "<strong>Identificação por processo</strong>, não por chute geral.",
       "Matriz <strong>probabilidade × impacto</strong> com cálculo automático.",
       "<strong>Plano de ação</strong> com responsável, prazo e evidência.",
       "Pronta para apresentar em <strong>análise crítica</strong>.",
@@ -578,7 +578,7 @@ export const pages = [
       { num: "04", title: "Monitoramento", text: "Acompanhamento de status, eficácia e reavaliação periódica." },
     ],
     ctaTitle: "Risco sem matriz<br>é só <em>opinião</em>.",
-    ctaCopy: "A planilha te dá estrutura imediata — sem precisar montar fórmula nenhuma. Copia, preenche e usa.",
+    ctaCopy: "A planilha te dá estrutura imediata, sem precisar montar fórmula nenhuma. Copia, preenche e usa.",
     ctaItems: ["Compatível com Google Sheets e Excel", "Pronta para auditoria ISO 9001", "Sem custo · sem compromisso"],
     faqItems: [],
   },
@@ -586,9 +586,9 @@ export const pages = [
     slug: "planilha-plano-operacional",
     type: "planilha",
     title: "Planilha de Plano Operacional · Templum",
-    metaDescription: "Planilha pronta para estruturar o plano operacional da sua empresa — metas, ações, responsáveis e prazos.",
+    metaDescription: "Planilha pronta para estruturar o plano operacional da sua empresa, metas, ações, responsáveis e prazos.",
     headlineHtml: "Plano operacional que<br>conecta <em>estratégia</em><br>e <em>execução</em>.",
-    subhead: "Da meta da diretoria à ação do time — sem perder ninguém pelo caminho. Planilha pronta com cascateamento de objetivos e gestão de marcos.",
+    subhead: "Da meta da diretoria à ação do time, sem perder ninguém pelo caminho. Planilha pronta com cascateamento de objetivos e gestão de marcos.",
     benefits: [
       "<strong>Cascateamento</strong> de meta estratégica em ação operacional.",
       "<strong>Marcos</strong> com prazo e responsável.",
@@ -598,12 +598,12 @@ export const pages = [
     marqueeItems: ["Plano operacional", { text: "Cascateamento", orange: true }, "Marcos", { text: "Responsáveis", orange: true }, "Status", { text: "Execução", orange: true }],
     steps: [
       { num: "01", title: "Metas estratégicas", text: "Aba para registrar os objetivos macro da empresa." },
-      { num: "02", title: "Desdobramento", text: "Cascateamento até ação operacional — quem faz o quê e quando." },
+      { num: "02", title: "Desdobramento", text: "Cascateamento até ação operacional, quem faz o quê e quando." },
       { num: "03", title: "Marcos", text: "Linha do tempo com checkpoints visíveis." },
       { num: "04", title: "Status e farol", text: "Acompanhamento semanal com sinalização de risco." },
     ],
     ctaTitle: "Plano que <em>vive</em>.<br>Não plano que <em>enfeita</em>.",
-    ctaCopy: "Planilha pronta com fórmulas e validações — você abre e começa a usar.",
+    ctaCopy: "Planilha pronta com fórmulas e validações, você abre e começa a usar.",
     ctaItems: ["Cascateamento até nível de tarefa", "Compatível com Google Sheets e Excel", "Sem custo · sem compromisso"],
     faqItems: [],
   },
@@ -611,9 +611,9 @@ export const pages = [
     slug: "planilha-controle-de-mudanca",
     type: "planilha",
     title: "Planilha de Controle de Mudança · Templum",
-    metaDescription: "Planilha pronta para gestão de mudanças em sistema de gestão (ISO 9001, 14001, 45001) — registro, análise de impacto, aprovação e implementação.",
+    metaDescription: "Planilha pronta para gestão de mudanças em sistema de gestão (ISO 9001, 14001, 45001), registro, análise de impacto, aprovação e implementação.",
     headlineHtml: "Mudança controlada,<br>auditoria <em>tranquila</em>.",
-    subhead: "Toda norma exige gestão de mudança — e auditor sempre puxa. Planilha estruturada para registrar, avaliar impacto, aprovar e implementar mudanças.",
+    subhead: "Toda norma exige gestão de mudança, e auditor sempre puxa. Planilha estruturada para registrar, avaliar impacto, aprovar e implementar mudanças.",
     benefits: [
       "Registro com <strong>análise de impacto</strong> antes da implementação.",
       "<strong>Aprovação</strong> formal com trilha visível.",
@@ -627,7 +627,7 @@ export const pages = [
       { num: "03", title: "Aprovação", text: "Trilha de aprovação formal com responsáveis." },
       { num: "04", title: "Verificação", text: "Acompanhamento pós-implementação e evidência de eficácia." },
     ],
-    ctaTitle: "Auditor pergunta —<br>você <em>mostra</em>.",
+    ctaTitle: "Auditor pergunta,<br>você <em>mostra</em>.",
     ctaCopy: "Planilha que vira evidência direta na auditoria. Estrutura e fórmulas já prontas.",
     ctaItems: ["Aderente a ISO 9001, 14001 e 45001", "Compatível com Google Sheets e Excel", "Sem custo · sem compromisso"],
     faqItems: [],
@@ -637,7 +637,7 @@ export const pages = [
     type: "planilha",
     title: "Planilha de Relatório de Não Conformidade · Templum",
     metaDescription: "Planilha pronta para registro e tratamento de não conformidades, com causa raiz, ação corretiva e verificação de eficácia.",
-    headlineHtml: "RNC que <em>fecha o ciclo</em> —<br>não que enche <em>arquivo</em>.",
+    headlineHtml: "RNC que <em>fecha o ciclo</em>,<br>não que enche <em>arquivo</em>.",
     subhead: "Planilha completa de relatório de não conformidade: registro, análise de causa raiz, ação corretiva, verificação e fechamento.",
     benefits: [
       "Registro com <strong>contenção imediata</strong> e descrição clara.",
@@ -661,7 +661,7 @@ export const pages = [
     slug: "planilha-mapeamento-sgi",
     type: "planilha",
     title: "Planilha de Mapeamento SGI · Templum",
-    metaDescription: "Planilha para mapear o Sistema de Gestão Integrado (ISO 9001 + 14001 + 45001) — processos, riscos e indicadores em um só lugar.",
+    metaDescription: "Planilha para mapear o Sistema de Gestão Integrado (ISO 9001 + 14001 + 45001), processos, riscos e indicadores em um só lugar.",
     headlineHtml: "SGI <em>integrado</em><br>em uma planilha só.",
     subhead: "Sistema de Gestão Integrado em planilha estruturada: processos, partes interessadas, riscos, controles e indicadores conectados.",
     benefits: [
@@ -684,15 +684,15 @@ export const pages = [
   },
 
   // ============================================================
-  // PLANILHAS — Construção / PBQP-H
+  // PLANILHAS, Construção / PBQP-H
   // ============================================================
   {
     slug: "planilha-pqo-plano-de-qualidade-da-obra",
     type: "planilha",
-    title: "Planilha PQO — Plano de Qualidade da Obra · Templum",
-    metaDescription: "Planilha pronta de Plano de Qualidade da Obra (PQO) alinhada ao PBQP-H — controle de serviços, inspeções e materiais.",
+    title: "Planilha PQO, Plano de Qualidade da Obra · Templum",
+    metaDescription: "Planilha pronta de Plano de Qualidade da Obra (PQO) alinhada ao PBQP-H, controle de serviços, inspeções e materiais.",
     headlineHtml: "PQO pronto pro<br><em>canteiro</em> e pra <em>auditoria</em>.",
-    subhead: "Plano de Qualidade da Obra com a estrutura que o PBQP-H exige — controle de serviços, inspeções, materiais e registros.",
+    subhead: "Plano de Qualidade da Obra com a estrutura que o PBQP-H exige, controle de serviços, inspeções, materiais e registros.",
     benefits: [
       "<strong>Controle de serviços executados</strong> com critérios de aceitação.",
       "<strong>Inspeções</strong> programadas e registradas.",
@@ -713,15 +713,15 @@ export const pages = [
   },
 
   // ============================================================
-  // PLANILHAS — SST
+  // PLANILHAS, SST
   // ============================================================
   {
     slug: "planilha-planilha-perigos-e-riscos",
     type: "planilha",
     title: "Planilha de Perigos e Riscos · Templum",
-    metaDescription: "Planilha pronta para identificação de perigos e avaliação de riscos ocupacionais — aderente à NR-01 e ISO 45001.",
-    headlineHtml: "Perigos e riscos<br><em>mapeados</em> — antes<br>do <em>acidente</em>.",
-    subhead: "Identificação de perigos por função, avaliação de risco com matriz e hierarquia de controle — alinhada à NR-01 e ISO 45001.",
+    metaDescription: "Planilha pronta para identificação de perigos e avaliação de riscos ocupacionais, aderente à NR-01 e ISO 45001.",
+    headlineHtml: "Perigos e riscos<br><em>mapeados</em>, antes<br>do <em>acidente</em>.",
+    subhead: "Identificação de perigos por função, avaliação de risco com matriz e hierarquia de controle, alinhada à NR-01 e ISO 45001.",
     benefits: [
       "Identificação por <strong>função e tarefa</strong>.",
       "Matriz com <strong>probabilidade × severidade</strong> automática.",
@@ -742,13 +742,13 @@ export const pages = [
   },
 
   // ============================================================
-  // PLANILHAS — Gestão
+  // PLANILHAS, Gestão
   // ============================================================
   {
     slug: "planilha-controle-de-estoque",
     type: "planilha",
     title: "Planilha de Controle de Estoque · Templum",
-    metaDescription: "Planilha completa para controle de estoque — entrada, saída, mínimo, máximo e alerta de reposição.",
+    metaDescription: "Planilha completa para controle de estoque, entrada, saída, mínimo, máximo e alerta de reposição.",
     headlineHtml: "Estoque <em>controlado</em><br>é caixa <em>liberado</em>.",
     subhead: "Planilha de controle de estoque com entrada, saída, ponto de pedido, mínimo, máximo e indicadores de giro.",
     benefits: [
@@ -765,7 +765,7 @@ export const pages = [
       { num: "04", title: "Análise", text: "Giro, curva ABC e itens em ruptura." },
     ],
     ctaTitle: "Estoque parado<br>é <em>dinheiro parado</em>.",
-    ctaCopy: "Planilha pronta para PME — sem precisar de ERP nem fórmula complexa.",
+    ctaCopy: "Planilha pronta para PME, sem precisar de ERP nem fórmula complexa.",
     ctaItems: ["Pronta para uso imediato", "Compatível com Google Sheets e Excel", "Sem custo · sem compromisso"],
     faqItems: [],
   },
@@ -773,8 +773,8 @@ export const pages = [
     slug: "planilha-tartaruga-turbinada",
     type: "planilha",
     title: "Planilha Tartaruga Turbinada · Templum",
-    metaDescription: "Diagrama Tartaruga em planilha — método clássico para mapear processo com entradas, saídas, recursos, controles e indicadores.",
-    headlineHtml: "Tartaruga turbinada —<br>mapeamento <em>completo</em><br>de processo.",
+    metaDescription: "Diagrama Tartaruga em planilha, método clássico para mapear processo com entradas, saídas, recursos, controles e indicadores.",
+    headlineHtml: "Tartaruga turbinada,<br>mapeamento <em>completo</em><br>de processo.",
     subhead: "O diagrama Tartaruga é a forma mais didática de mapear um processo. Esta versão turbinada inclui indicadores, riscos e controles na mesma vista.",
     benefits: [
       "Estrutura clássica de <strong>entradas, saídas, recursos, controles</strong>.",
@@ -790,7 +790,7 @@ export const pages = [
       { num: "04", title: "Análise crítica", text: "Espaço para revisão periódica e oportunidades." },
     ],
     ctaTitle: "Processo em<br><em>uma página</em>.",
-    ctaCopy: "Tartaruga turbinada é a planilha que substitui apresentação de 20 slides — direto, visual e auditável.",
+    ctaCopy: "Tartaruga turbinada é a planilha que substitui apresentação de 20 slides, direto, visual e auditável.",
     ctaItems: ["Aplicável a qualquer setor", "Compatível com Google Sheets e Excel", "Sem custo · sem compromisso"],
     faqItems: [],
   },
@@ -798,8 +798,8 @@ export const pages = [
     slug: "planilha-fluxo-de-caixa",
     type: "planilha",
     title: "Planilha de Fluxo de Caixa · Templum",
-    metaDescription: "Planilha de fluxo de caixa simplificado — entradas, saídas, saldo projetado e gestão de contas a pagar e receber.",
-    headlineHtml: "Caixa sob <em>controle</em> —<br>decisão com <em>visibilidade</em>.",
+    metaDescription: "Planilha de fluxo de caixa simplificado, entradas, saídas, saldo projetado e gestão de contas a pagar e receber.",
+    headlineHtml: "Caixa sob <em>controle</em>,<br>decisão com <em>visibilidade</em>.",
     subhead: "Planilha de fluxo de caixa simplificado: entradas, saídas, saldo do dia, saldo projetado e gestão de contas a pagar e receber.",
     benefits: [
       "<strong>Saldo diário</strong> com projeção futura.",
@@ -815,7 +815,7 @@ export const pages = [
       { num: "04", title: "Painel mensal", text: "Visão consolidada por mês com gráficos." },
     ],
     ctaTitle: "Caixa <em>previsto</em><br>caixa <em>controlado</em>.",
-    ctaCopy: "Planilha simples e direta — feita para empresário que quer visibilidade sem complicação de ERP.",
+    ctaCopy: "Planilha simples e direta, feita para empresário que quer visibilidade sem complicação de ERP.",
     ctaItems: ["Pronta para uso imediato", "Compatível com Google Sheets e Excel", "Sem custo · sem compromisso"],
     faqItems: [],
   },

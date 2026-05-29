@@ -44,11 +44,11 @@ function defaultFaq(type, formatNote) {
     },
     {
       q: "Posso compartilhar com meu time?",
-      a: `Pode. O uso interno na sua organização é livre — quanto mais gente lendo, melhor.`,
+      a: `Pode. O uso interno na sua organização é livre, quanto mais gente lendo, melhor.`,
     },
     {
       q: "Vou receber outros emails depois?",
-      a: `Eventualmente sim — novos materiais e dicas práticas. Cada email tem link para descadastrar com um clique.`,
+      a: `Eventualmente sim, novos materiais e dicas práticas. Cada email tem link para descadastrar com um clique.`,
     },
   ];
 }
@@ -174,7 +174,7 @@ export function render(page) {
   const desc = page.metaDescription;
   const ogTitle = page.ogTitle || title.replace(" · Templum", "");
   const ogDesc = page.ogDescription || desc;
-  const stepsLede = page.stepsLede || "Materiais escritos por quem implementa sistemas de gestão na prática. Sem teoria solta — direto para a decisão que você precisa tomar.";
+  const stepsLede = page.stepsLede || "Materiais escritos por quem implementa sistemas de gestão na prática. Sem teoria solta, direto para a decisão que você precisa tomar.";
   const stepsTitle = page.stepsTitle || "O que você vai encontrar.";
   const faqItems = (page.faqItems || []).concat(defaultFaq(page.type));
 
@@ -335,7 +335,7 @@ ${renderComparison(page.comparison)}${renderAudiences(page.audiences)}
       <div class="footer-row">
         <div class="footer-brand">
           <a href="https://templum.com.br" class="templum-logo onDark"><img src="/assets/templum-logo.png" alt="Templum" /></a>
-          <p>Consultoria em sistemas de gestão. ISO 9001, 14001, 45001, 27001 e PBQP-H — implementação que sustenta certificação e gera resultado de negócio.</p>
+          <p>Consultoria em sistemas de gestão. ISO 9001, 14001, 45001, 27001 e PBQP-H, implementação que sustenta certificação e gera resultado de negócio.</p>
         </div>
         <div class="footer-links">
           <a href="https://templum.com.br">Site institucional</a>
