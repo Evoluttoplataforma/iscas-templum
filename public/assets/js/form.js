@@ -62,6 +62,21 @@
       if (foot) foot.style.display = 'none';
       successLink.href = data.iscaUrl;
       successBox.classList.add('--show');
+
+      // Tracking: dispara Lead em Meta Pixel / Google Ads / GA4 (e demais
+      // plataformas habilitadas em /assets/tracking/config.js).
+      if (window.trk && typeof window.trk.lead === 'function') {
+        try {
+          window.trk.lead({
+            email: payload.email,
+            phone: payload.telefone,
+            name: payload.nome,
+            company: payload.empresa,
+            isca: payload.slug,
+          });
+        } catch (e) { /* não bloqueia entrega da isca se tracking falhar */ }
+      }
+
       // auto-open after a short delay so the user sees the success state first
       setTimeout(() => { window.open(data.iscaUrl, '_blank', 'noopener'); }, 800);
     } catch (err) {
