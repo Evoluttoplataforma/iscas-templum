@@ -1,5 +1,9 @@
-# Cloudflare Pages redirects — slugs that go straight to the destination (no landing).
-# These covered RDStation URLs that were always redirects or institutional pages with no lead magnet.
+# Cloudflare Pages redirects.
+# Root → institutional site (so the bare domain doesn't 404).
+/                            https://templum.com.br                         301
+
+# Slugs that go straight to the destination (no landing).
+# Covered RDStation URLs that were always redirects or institutional pages with no lead magnet.
 /iso-45001                   https://templum.com.br/consultoria/iso-45001   301
 /iso_9001                    https://templum.com.br/consultoria/iso-9001    301
 /pbqp-h                      https://templum.com.br/consultoria/pbqp-h      301
