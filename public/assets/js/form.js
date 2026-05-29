@@ -1,5 +1,5 @@
 /* Templum landing — form handler
-   Submits {nome,email,telefone,empresa,slug} to /api/subscribe.
+   Submits {nome,email,telefone,empresa,slug, tracking{...}} to /api/subscribe.
    On success, swaps form for success state and reveals the isca URL returned by the API. */
 (function () {
   const form = document.querySelector('[data-lead-form]');
@@ -11,6 +11,43 @@
   const successLink = successBox.querySelector('[data-isca-link]');
   const submitBtn = form.querySelector('[data-lead-submit]');
   const slug = (document.body.dataset.slug || window.location.pathname.replace(/^\/|\/$/g, '')).split('/')[0];
+
+  function readCookie(name) {
+    const match = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+    return match ? decodeURIComponent(match.pop()) : '';
+  }
+
+  function getUrlParam(name) {
+    try {
+      return new URL(window.location.href).searchParams.get(name) || '';
+    } catch (e) { return ''; }
+  }
+
+  // _fbc cookie format: "fb.1.<timestamp>.<fbclid>" — extract the fbclid tail.
+  function parseFbcCookie() {
+    const fbc = readCookie('_fbc');
+    if (!fbc) return '';
+    const parts = fbc.split('.');
+    return parts.length >= 4 ? parts.slice(3).join('.') : '';
+  }
+
+  function collectTracking() {
+    return {
+      lt_source:   readCookie('lt_utm_source'),
+      lt_medium:   readCookie('lt_utm_medium'),
+      lt_campaign: readCookie('lt_utm_campaign'),
+      lt_content:  readCookie('lt_utm_content'),
+      lt_term:     readCookie('lt_utm_term'),
+      ft_source:   readCookie('ft_utm_source'),
+      ft_medium:   readCookie('ft_utm_medium'),
+      ft_campaign: readCookie('ft_utm_campaign'),
+      ft_content:  readCookie('ft_utm_content'),
+      ft_term:     readCookie('ft_utm_term'),
+      gclid:       getUrlParam('gclid')  || readCookie('_gcl_aw') || '',
+      fbclid:      getUrlParam('fbclid') || parseFbcCookie(),
+      landing_page: readCookie('trk_landing_page'),
+    };
+  }
 
   function showError(msg) {
     errorBox.textContent = msg;
@@ -35,6 +72,7 @@
       telefone: form.telefone.value.trim(),
       empresa: form.empresa.value.trim(),
       slug: slug,
+      tracking: collectTracking(),
     };
 
     if (!payload.nome || !payload.email || !payload.telefone || !payload.empresa) {

@@ -127,6 +127,8 @@ export async function onRequestPost(context) {
   const telefone = (body.telefone || "").trim();
   const empresa = (body.empresa || "").trim();
   const slug = (body.slug || "").trim();
+  const tracking = body.tracking && typeof body.tracking === "object" ? body.tracking : {};
+  const trk = (key) => String(tracking[key] || "").slice(0, 250); // Mailchimp text fields cap at 255
 
   if (!nome || !email || !telefone || !empresa || !slug) {
     return json({ ok: false, error: "Campos obrigatórios faltando." }, 400);
@@ -176,6 +178,23 @@ export async function onRequestPost(context) {
           PHONE: telefone,
           COMPANY: empresa,
           SOURCE: slug,
+          // Last touch UTMs (origem da conversão)
+          LT_SOURCE:  trk("lt_source"),
+          LT_MEDIUM:  trk("lt_medium"),
+          LT_CAMP:    trk("lt_campaign"),
+          LT_CONTENT: trk("lt_content"),
+          LT_TERM:    trk("lt_term"),
+          // First touch UTMs (origem inicial da jornada)
+          FT_SOURCE:  trk("ft_source"),
+          FT_MEDIUM:  trk("ft_medium"),
+          FT_CAMP:    trk("ft_campaign"),
+          FT_CONTENT: trk("ft_content"),
+          FT_TERM:    trk("ft_term"),
+          // Click IDs (pra integração com Ads platforms)
+          GCLID:      trk("gclid"),
+          FBCLID:     trk("fbclid"),
+          // Landing page que converteu
+          LAND_PAGE:  trk("landing_page"),
         },
         tags: ["isca:" + slug],
       }),
